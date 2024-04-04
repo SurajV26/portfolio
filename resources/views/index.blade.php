@@ -83,6 +83,15 @@
         </div>
     </section>
 
+    <section class="side">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/" class="text-capitalize text-dark">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+        </nav>
+    </section>
+
     <section class="section-padding">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -192,6 +201,16 @@
         </div>
     </section>
 
+    <section class="side">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/" class="text-capitalize text-dark">Home</a></li>
+                <li class="breadcrumb-item"><a href="#about" class="text-capitalize text-dark">About</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Projects</li>
+            </ol>
+        </nav>
+    </section>
+
     <section style="padding-top: 6%;">
         <div class="container">
             <div class="row">
@@ -298,7 +317,17 @@
 
     {{--        contact   ------  page         --}}
 
-    
+    <section class="side">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/" class="text-capitalize text-dark">Home</a></li>
+                <li class="breadcrumb-item"><a href="#about" class="text-capitalize text-dark">About</a></li>
+                <li class="breadcrumb-item"><a href="/#project" class="text-capitalize text-dark">Projects</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+    </section>
+
     <section class="px-5" id="contact" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
         <span>
             <h1 class="big-text font-effect-shadow-multiple">GET IN TOUCH</h1>

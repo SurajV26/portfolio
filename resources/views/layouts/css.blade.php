@@ -222,6 +222,17 @@
     
     /* about page */
 
+    .side{
+        padding-top: 6vh;
+        padding-left: 10vw;
+    }
+
+    .breadcrumb .breadcrumb-item.active a {
+        text-decoration: none;
+        font-weight: 500;
+        color: rgb(56, 37, 40);
+    }
+
     .about {
         padding-top: 12vh;
     }
